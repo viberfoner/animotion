@@ -69,3 +69,5 @@ function setup() {
 ```
 
 And that's it! Your sketch should be a looping animation of a circle moving smoothly from left to right. By default, all movement is animated with the `easeInOutCubic` easing function which gives the animation its smoothness. The `addKeyframe` method can take an optional 3rd paramater if you would like to specify which easing function to use. [Check here](https://easings.net/) for a nice cheat sheet of the standard easing functions (not all are supported in this library yet!).
+
+Also, check the `examples` folder to see more intricate examples.
