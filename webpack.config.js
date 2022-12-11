@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'animotion.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'lib'),
   },
   watch: true,
 };
